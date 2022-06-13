@@ -119,7 +119,7 @@ const renderPokemonAbilities = abilities => {
 
 const renderNotFound = () => {
     pokeName.textContent = 'No encontrado';
-    pokeImg.setAttribute('src', 'poke-shadow.jpg');
+    pokeImg.setAttribute('src', '../img/poke-shadow.jpg');
     pokeImg.style.background =  '#fff';
     pokeTypes.innerHTML = '';
     pokeStats.innerHTML = '';
